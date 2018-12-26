@@ -14,3 +14,11 @@ models.ImageField
 models.URLField
 models.IPAddressField
 '''
+
+class userinfo(models.Model):
+    nid=models.AutoField(primary_key=True)
+    username=models.CharField(max_length=32)
+    email=models.EmailField()
+    memo=models.TextField()
+    img=models.ImageField()
+

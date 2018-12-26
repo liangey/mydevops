@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="mydevops">
+  <component name="PublishConfigData" autoUpload="Always" serverName="mydevops" uploadOnCheckin="3c730d82-f30c-4b81-b8a4-2a6b4413ac51">
     <serverData>
-      <paths name="mydevops">
+      <paths name="ley_devops">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/index" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="ley_devops" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
