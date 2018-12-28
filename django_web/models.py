@@ -20,5 +20,8 @@ class userinfo(models.Model):
     username=models.CharField(max_length=32)
     email=models.EmailField()
     memo=models.TextField()
-    img=models.ImageField()
+
+
+
+
 

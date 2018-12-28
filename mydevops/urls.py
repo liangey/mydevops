@@ -16,8 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django_web.views import index
+from Testmodle1 import testdb
 
 urlpatterns = [
     path(r'admin/', admin.site.urls),
     path(r'^index/', index),
+    path('testdb',testdb.testdb),
+    path('updatedb',testdb.updatedb),
 ]
